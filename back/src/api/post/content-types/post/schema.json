@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "onOff": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "All",
+        "Animal",
+        "Human",
+        "Alien"
+      ],
+      "default": "All"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

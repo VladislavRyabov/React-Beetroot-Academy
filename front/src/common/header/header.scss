@@ -1,18 +1,72 @@
 .header {
-    background-color: cadetblue;
+    z-index: 10;
+    position: relative;
+
+    &__wrapper-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__wrapper {
+        border-bottom: 1px solid rgba(20, 22, 21, 0.1);
+    }
 
     &__wrap {
         display: flex;
-        gap: 30px;
     }
 
     &__item {
-        padding: 20px 0px;
+        padding: 34px 19px;
         list-style-type: none;
+        border-right: 1px solid rgba(20, 22, 21, 0.1);
+    }
+
+    &__item-logo {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 16px;
+        letter-spacing: 0.5rem;
+        text-transform: uppercase;
+        text-decoration:none;
+        color: white;
+        padding-right: 20px;
+    }
+
+    &__item-link {
+        font-family: 'Roboto';
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1.1px;
+        text-transform: uppercase;
+        text-decoration:none;
+        color: white;
+
     }
 
     &__button {
         background-color: #b2b2b2;
-        margin: 10px 0px;
+    }
+
+    &__right-wrap {
+        display: flex;
+    }
+
+    &__right-item {
+        padding: 35px 19px;
+        list-style-type: none;
+        border-left: 1px solid rgba(20, 22, 21, 0.1);
+    }
+
+    &__right-link {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+        text-decoration:none;
+        color: white;
     }
 }

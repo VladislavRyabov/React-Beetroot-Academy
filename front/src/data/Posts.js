@@ -5,9 +5,8 @@ export const GET_POST = gql`
     data {
       id
       attributes {
-        Title
+        title
         description
-        onOff
         category
         img {
           data {
@@ -16,6 +15,8 @@ export const GET_POST = gql`
             }
           }
         }
+        color
+        price
         images {
           data {
             attributes {

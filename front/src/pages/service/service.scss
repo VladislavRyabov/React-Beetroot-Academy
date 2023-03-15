@@ -1,0 +1,32 @@
+.offer-products {
+  background: url(../../img/Homepage-Desktop.webp) no-repeat center top / cover;
+}
+.rick-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.rick-select-row {
+  display: flex;
+  gap: 30px;
+}
+
+.products {
+  margin-top: -95px;
+  position: relative;
+  z-index: 1;
+
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 160px;
+    line-height: 160px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color: #fff;
+  }
+}

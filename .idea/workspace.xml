@@ -4,7 +4,113 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00bae644-1f60-440a-bb54-4701700eb1be" name="Changes" comment="" />
+    <list default="true" id="00bae644-1f60-440a-bb54-4701700eb1be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/front/src/common/footer/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/pages/contact/contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/pages/home/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/pages/service/service.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/api/home-page/content-types/home-page/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/api/home-page/content-types/home-page/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/api/post/content-types/post/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/api/post/content-types/post/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/13.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/14.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/15.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/16.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/17.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/18.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/19.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/19.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/20.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/20.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/9.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/common/article/Article.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/common/article/article.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/common/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/common/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/common/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/common/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/common/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/common/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/component/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/component/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/component/Button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/component/Button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/component/Cart/Cart.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/component/List/List.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/component/List/list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/component/Test/Test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/component/Test/Test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/component/Test/Test.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/component/Test/Test.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/component/TestInfo/TestInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/component/TestInfo/TestInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/data/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/data/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/2017-MERCEDES-BENZ-E-300.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/2019-AUDI-A6-PREMIUM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/AUDI-A6-PRESTIGE.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/AUDI-Q7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/BMW-320-I.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/BMW-528-I.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/BMW-550-XI.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/BMW.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/Ford_Fusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/Mask Group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/Mercedes-Benz-CLA.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/Mercedes-Benz-CLS.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/Parts_Explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/Preview.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/VOLKSWAGEN-PASSAT-R-LINE.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/VOLKSWAGEN-PASSAT-SE.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/VOLVO-S60.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/VOLVO-S90.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/VOLVO-XC90-T6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/acura.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/audi-a6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/auto_server.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/auto_server_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/bmw 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/bmw-01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/bmw-blac.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/bmw-f10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/cytonn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/documentation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/honda-civic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/jonas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/jonathan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/mustang_shelby.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/mustang_shelby_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/mustang_shelby_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/pexels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/port_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/port_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/volkswagen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/img/vw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/available/Available.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/blog/Blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/blog/Blog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/blog/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/blog/blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/rickAndMorty/RickAndMorty.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/rickAndMorty/rickAndMorty.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/service/Service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/service/Service.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/style/main.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +177,15 @@
       <workItem from="1677745279372" duration="8185000" />
       <workItem from="1678095775083" duration="21215000" />
       <workItem from="1678212228923" duration="228000" />
+      <workItem from="1678212875233" duration="471000" />
+      <workItem from="1678301285940" duration="563000" />
+      <workItem from="1678358306517" duration="1456000" />
+      <workItem from="1678436963131" duration="20217000" />
+      <workItem from="1678643746376" duration="2921000" />
+      <workItem from="1678699178357" duration="11288000" />
+      <workItem from="1678729884621" duration="9244000" />
+      <workItem from="1678783651380" duration="19360000" />
+      <workItem from="1678869018508" duration="184000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,97 @@
+.offer-electric {
+  background: url(../../img/Electric.webp) no-repeat center top / cover;
+}
+
+.electric {
+
+  &__wrapper {
+    display: flex;
+    max-width: 1700px;
+    margin: -4px auto;
+  }
+
+  &__wrap-left {
+    overflow: hidden;
+
+    &:hover {
+      overflow: hidden;
+      //transform: scale(1.08);
+      //transition: transform 2000ms ease;
+    }
+  }
+
+  &__wrap-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &__wrap-info {
+    max-width: 450px;
+  }
+
+  &__title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 93px;
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(20, 22, 21, 0.6);
+    margin-top: 30px;
+  }
+}
+
+.electric__wrap-left-max {
+  max-width: 985px;
+}
+
+.electric__wrap-left-min {
+  min-width: 985px;
+}
+
+.phone {
+  background: url(../../img/iphone.png) no-repeat center top / cover;
+
+  &__wrap {
+    padding: 140px 0 25px;
+  }
+
+  &__info {
+    margin-bottom: 350px;
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 93px;
+    line-height: 93px;
+    color: #F0F0F0;
+  }
+}
+
+//----- offer-button__color-black ------//
+
+.offer-button__wrap-phone {
+  background: #fff;
+}
+
+.offer-button__color-black {
+  color: black;
+}
+
+.offer-button__wrap-black:before  {
+  color: black;
+}
+
+.offer-button__right-black:before  {
+  color: black;
+}
+
+//----- offer-button__color-black ------//

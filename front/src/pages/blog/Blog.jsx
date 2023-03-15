@@ -1,11 +1,6 @@
 import Button from "../../component/Button/Button";
-import cerImg from "../../img/bmw-blac.jpeg";
 import {Link} from "react-router-dom";
 import './blog.scss'
-
-import {Users} from "../../data/Users";
-import List from "../../component/List/List";
-import "../../component/List/list.scss"
 
 import {isMobile} from 'react-device-detect';
 
@@ -43,15 +38,21 @@ function Blog() {
 
     return (
         <>
-            <section>
-                <h2>Blog page</h2>
-                <div className="box">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, optio.</h2>
-                    <Button name="Hello"/>
-                    <Button/>
-                    <Button className="header__button" name='Open'/>
-                    <Link to='/blog'>Blog</Link>
+            <section className="offer offer-blog">
+                <div className="offer__wrap container">
+                    <Link className="offer-button" to='/blog'>
+                        <div className="offer-button__wrap offer-button__wrap-white offer-button__wrapper">
+                            <div className="offer-button__left">
+                                <p className="offer-button__text">Electric</p>
+                                <p className="offer-button__color offer-button__color-white">Discover Ivy & Ace</p>
+                            </div>
+                            <div className="offer-button__right offer-button__right-white"></div>
+                        </div>
+                    </Link>
                 </div>
+            </section>
+            <section>
+                <h2>City</h2>
                 <div className="blog__swiper">
                     <Swiper
                         pagination={pagination}

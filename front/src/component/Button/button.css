@@ -1,9 +1,17 @@
 .button {
-    padding: 10px 20px;
-    background-color: cadetblue;
     border: none;
-    border-radius: 10px;
     cursor: pointer;
-    margin: 10px 0px;
+    padding: 20px;
+    background: #373737;
+    border-radius: 13px;
+}
+
+.button-color {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33.3333px;
+    line-height: 42px;
+    color: #FFFFFF;
 }
 

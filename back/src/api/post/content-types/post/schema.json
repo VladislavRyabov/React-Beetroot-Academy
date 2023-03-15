@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
     "img": {
@@ -26,26 +26,38 @@
     "description": {
       "type": "richtext"
     },
-    "onOff": {
-      "type": "boolean"
-    },
     "category": {
       "type": "enumeration",
       "enum": [
         "All",
-        "Animal",
-        "Human",
-        "Alien"
+        "Electric Ivy",
+        "Electric Ace",
+        "City Cafechaser",
+        "City Men Caferacer",
+        "City Men Berlin",
+        "City Women Caferacer",
+        "City Women Robyn",
+        "Kids Tricycle",
+        "Kids Mini",
+        "Kids Maxi",
+        "Kids Junior"
       ],
       "default": "All"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "color": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
     }
   }
 }

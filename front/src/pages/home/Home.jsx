@@ -1,26 +1,34 @@
+import React from "react";
 import Button from "../../component/Button/Button";
 import {Link} from "react-router-dom";
-import cerImg from "../../img/BMW.jpeg";
-import carImgBmw from "../../img/bmw-01.jpeg"
+
+import Homepage from "../../img/Homepage01.webp";
+
+import './home.scss'
+import '../../style/main.scss'
+
 function Home() {
     return (
         <>
-            <section>
-                <h2>Home page</h2>
-                <img src={carImgBmw} alt=""/>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur dicta eligendi esse eveniet
-                    pariatur repudiandae saepe sequi, unde vel veritatis voluptates. At dolore ipsum obcaecati repellat voluptates?
-                    Aliquam aut consequuntur culpa cum dicta doloremque et fuga impedit labore minima, officiis porro ratione rem
-                    soluta suscipit tenetur unde voluptas voluptates?
-                </p>
-                <div className="box">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, optio.</h2>
-                    <Button name="Hello"/>
-                    <Button/>
-                    <img src={cerImg} alt=""/>
+            <section className="offer offer-home">
+                <div className="offer__wrap container">
+                    <Link className="offer-button" to='/blog'>
+                        <div className="offer-button__wrap offer-button__wrap-white offer-button__wrapper">
+                            <div className="offer-button__left">
+                                <p className="offer-button__text">Electric</p>
+                                <p className="offer-button__color offer-button__color-white">Discover Ivy & Ace</p>
+                            </div>
+                            <div className="offer-button__right offer-button__right-white">
+
+                            </div>
+                        </div>
+                    </Link>
                 </div>
-                <Button className="header__button" name='Open'/>
+            </section>
+            <section className="container">
+
+                <h2>Home page</h2>
+                <Button className="header__button" name='Discover Ivy & Ace'/>
                 <Link to='/blog'>Blog</Link>
             </section>
         </>

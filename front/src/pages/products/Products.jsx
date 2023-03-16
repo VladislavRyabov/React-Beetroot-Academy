@@ -81,7 +81,7 @@ function Products() {
                 <div className="offer__wrap container">
                     <h1 className="products__title">Products</h1>
                     <Link className="offer-button" to='/blog'>
-                        <div className="offer-button__wrap offer-button__wrap-white offer-button__wrapper">
+                        <div className="offer-button__wrap offer-button__wrap-white offer-button__wrapper offer-button__wrapper-grey">
                             <div className="offer-button__left">
                                 <p className="offer-button__text">Electric</p>
                                 <p className="offer-button__color offer-button__color-white">Discover Ivy & Ace</p>
@@ -91,7 +91,7 @@ function Products() {
                     </Link>
                 </div>
             </section>
-            <section>
+            <section className="products-card">
                 <div className="container">
                     <nav className="rick-nav">
                         <div className="rick-select-row">

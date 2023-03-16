@@ -20,6 +20,8 @@ img {
     width: 100%;
 }
 
+
+
 // -----  Offer  ------ //
 
 .offer {
@@ -43,16 +45,6 @@ img {
     }
 }
 
-//.offer__wrap-home {
-//    display: flex;
-//    flex-direction: column;
-//    align-items: end;
-//    margin-top: -210px;
-//    @media screen and (max-width: 900px) {
-//        align-items: center;
-//    }
-//}
-
 //----- offer-button__color-white ------//
 
 .offer-button__wrapper {
@@ -63,6 +55,10 @@ img {
     @media screen and (max-width: 900px) {
         margin-right: 0;
     }
+}
+
+.offer-button__wrapper-grey {
+    background: #B3AFAD;
 }
 
 .offer-button__color-white {
@@ -77,7 +73,7 @@ img {
     color: #FFFFFF;
 }
 
-//----------------------------------------//
+//  -----  offer-button  -----  //
 
 
 .offer-button {
@@ -153,7 +149,7 @@ img {
         line-height: 16px;
         letter-spacing: 0.8px;
         text-transform: uppercase;
-        color: #979797;
+        color: #d9d9d9;
         margin-bottom: 5px;
     }
 
@@ -165,7 +161,7 @@ img {
     }
 }
 
-//----- offer-button__color-white ------//
+//  -----  picture  ------  //
 
 .picture {
 
@@ -243,8 +239,8 @@ img {
         font-size: 40px;
         line-height: 44px;
         padding: 30px;
-        border-radius: 10px;
-        border: 1px solid;
+        //border-radius: 10px;
+        //border: 1px solid;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -269,5 +265,19 @@ img {
     @media screen and (max-width: 850px) {
         flex-direction: column;
     }
+}
+
+
+//  -----  section-swiper  -----  //
+
+.section-swiper {
+    background: #B6B6B6;
+    padding: 120px 0 150px;
+    margin-top: -4px;
+
+    @media screen and (max-width: 850px) {
+        padding: 100px 0 120px;
+    }
+
 }
 

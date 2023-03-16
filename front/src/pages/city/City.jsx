@@ -1,6 +1,7 @@
 import Button from "../../component/Button/Button";
 import {Link} from "react-router-dom";
 import './city.scss'
+import '../../style/main.scss'
 
 import City1 from '../../img/City-Image-1.webp'
 import City2 from '../../img/City-Image-2.webp'
@@ -16,25 +17,20 @@ import Horizontal1 from '../../img/Horizontal-Mobile.webp'
 import Company1 from '../../img/Company-Desktop.webp'
 import Company2 from '../../img/Company-Mobile.webp'
 
-import {isMobile} from 'react-device-detect';
 
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import "./styles.css";
-
 // import required modules
 import { Pagination } from "swiper";
+
+
 import {useQuery} from "@apollo/client";
 import {GET_POST} from "../../data/Posts";
 import Test from "../../component/Test/Test";
-import frame01 from "../../img/Frame01.webp";
-import FrameMob from "../../img/FrameMob.webp";
 
 function City() {
     const { loading, error, data } = useQuery(GET_POST);
@@ -44,20 +40,12 @@ function City() {
     if (loading) return <h1>...Loading</h1>
     if (error) return <h1>Error: {error.message}</h1>
 
-
-    const pagination = {
-        clickable: true,
-        renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
-        },
-    };
-
     return (
         <>
             <section className="offer offer-blog">
                 <div className="offer__wrap container">
                     <Link className="offer-button" to='/blog'>
-                        <div className="offer-button__wrap offer-button__wrap-white offer-button__wrapper">
+                        <div className="offer-button__wrap offer-button__wrap-white offer-button__wrapper offer-button__wrapper-grey">
                             <div className="offer-button__left">
                                 <p className="offer-button__text">Electric</p>
                                 <p className="offer-button__color offer-button__color-white">Discover Ivy & Ace</p>
@@ -84,6 +72,32 @@ function City() {
                         Our women's bicycles are for everyone who likes to combine style with pace (and grace).
                         Available for women are the Caféracer and the Robyn, but who says women can't ride the Berlin? Not us!
                     </p>
+                </div>
+            </section>
+            <section className="section-swiper">
+                <div className="container">
+                    <div className="blog__swiper">
+                        <Swiper
+                            centeredSlides={false}
+                            spaceBetween={80}
+                            grabCursor={false}
+                            pagination={{
+                                clickable: false,
+                            }}
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 1,
+                                },
+                                576: {
+                                    slidesPerView: 2,
+                                },
+                            }}
+                            // modules={[Pagination]}
+                            className="mySwiper"
+                        >
+                            {Posts}
+                        </Swiper>
+                    </div>
                 </div>
             </section>
             <section className="picture container">
@@ -128,19 +142,6 @@ function City() {
                     <img className="company-bikes__img" src={Company1} alt="forever"/>
                 </picture>
             </section>
-            {/*<section>*/}
-            {/*    <div className="container">*/}
-            {/*        <h2>City</h2>*/}
-            {/*        <div className="blog__swiper">*/}
-            {/*            <Swiper*/}
-            {/*                pagination={pagination}*/}
-            {/*                modules={[Pagination]}*/}
-            {/*                className="mySwiper">*/}
-            {/*                {Posts}*/}
-            {/*            </Swiper>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
         </>
     )
 }

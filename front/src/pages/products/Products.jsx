@@ -3,13 +3,13 @@ import { GET_POST } from '../../data/Posts'
 import React, {useEffect, useState} from "react";
 import Test from "../../component/Test/Test";
 import '../../component/Test/Test.scss'
-import './service.scss'
+import './products.scss'
 import '../../style/main.scss'
 
 import products from '../../img/Homepage-Desktop.webp'
 import {Link} from "react-router-dom";
 
-function Service() {
+function Products() {
     // const {isLoading, data} = useFetch('http://localhost:1337/graphql')
     const { loading, error, data } = useQuery(GET_POST);
     const Posts = data?.posts.data;
@@ -77,12 +77,9 @@ function Service() {
 
     return (
         <>
-            {/*<section className="products">*/}
-            {/*    <img className="products__background" src={products} alt=""/>*/}
-            {/*    <h1 className="products__title">Products</h1>*/}
-            {/*</section>*/}
             <section className="offer offer-products">
                 <div className="offer__wrap container">
+                    <h1 className="products__title">Products</h1>
                     <Link className="offer-button" to='/blog'>
                         <div className="offer-button__wrap offer-button__wrap-white offer-button__wrapper">
                             <div className="offer-button__left">
@@ -94,27 +91,29 @@ function Service() {
                     </Link>
                 </div>
             </section>
-            <div className="container">
-                <nav className="rick-nav">
-                    <div className="rick-select-row">
-                        <select onChange={selectChange}>
-                            <option value="All">Category</option>
-                            {option.map((item, index) => <option key={index}>{item}</option>)}
-                        </select>
-                        <select onChange={vladislav}>
-                            <option value="All">Color</option>
-                            {color.map((item, index) => <option key={index}>{item}</option>)}
-                        </select>
+            <section>
+                <div className="container">
+                    <nav className="rick-nav">
+                        <div className="rick-select-row">
+                            <select onChange={selectChange}>
+                                <option value="All">Category</option>
+                                {option.map((item, index) => <option key={index}>{item}</option>)}
+                            </select>
+                            <select onChange={vladislav}>
+                                <option value="All">Color</option>
+                                {color.map((item, index) => <option key={index}>{item}</option>)}
+                            </select>
+                        </div>
+                        <div className="rick-search-row">
+                            <input type="text" ref={inpValue}/><button onClick={changeState}>Search</button>
+                        </div>
+                    </nav>
+                    <div className="cart-ul">
+                        {out?.map(item => <Test key={item.id} item={item}/>)}
                     </div>
-                    <div className="rick-search-row">
-                        <input type="text" ref={inpValue}/><button onClick={changeState}>Search</button>
-                    </div>
-                </nav>
-                <div className="cart-ul">
-                    {out?.map(item => <Test key={item.id} item={item}/>)}
                 </div>
-            </div>
+            </section>
         </>
     )
 }
-export default Service
+export default Products

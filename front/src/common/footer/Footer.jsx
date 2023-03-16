@@ -60,9 +60,6 @@ function Footer() {
                                             <Link className="footer__left-item-link footer-text">FAQ</Link>
                                         </li>
                                         <li className="footer__left-item">
-                                            <Link className="footer__left-item-link footer-text">FAQ Electric</Link>
-                                        </li>
-                                        <li className="footer__left-item">
                                             <Link className="footer__left-item-link footer-text">Shipping</Link>
                                         </li>
                                         <li className="footer__left-item">
@@ -76,28 +73,6 @@ function Footer() {
                                         </li>
                                     </ul>
                                 </div>
-                                <ul className="contact__item d-flex">
-                                    <li className="contact__ink">
-                                        <a href="#">
-                                            <Favicon url="http://oflisback.github.io/react-favicon/img/github.ico" />
-                                        </a>
-                                    </li>
-                                    <li className="contact__link">
-                                        <a href="#">
-                                            <i className="fab fa-facebook-messenger"></i>
-                                        </a>
-                                    </li>
-                                    <li className="contact__ink">
-                                        <a href="#">
-                                            <i className="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li className="contact__link">
-                                        <a href="#">
-                                            <i className="fab fa-youtube"></i>
-                                        </a>
-                                    </li>
-                                </ul>
                             </div>
                             <div className="footer__wrap-right">
                                 <h4 className="footer__right-title footer-title">We're here to help.</h4>

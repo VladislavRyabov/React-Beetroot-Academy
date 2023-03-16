@@ -1,6 +1,10 @@
 .footer {
   padding-bottom: 100px;
 
+  @media screen and (max-width: 900px) {
+    padding-bottom: 50px;
+  }
+
   &__logo {
     padding: 50px 0;
     border-top: 1px solid #ebebeb;
@@ -27,21 +31,44 @@
   &__wrapper-box {
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+    }
   }
 
   &__wrap-left {
     display: flex;
     padding: 75px 0 100px;
+
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      justify-content: space-around;
+    }
   }
 
   &__wrap-right {
     border-left: 1px solid #ebebeb;
-    padding: 75px 200px 75px 150px;
+    padding-top: 70px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      border-left: none;
+      padding-top: 0px;
+      padding-bottom: 30px;
+    }
   }
 
   &__wrap-left-category {
     margin-right: 100px;
+
+    @media screen and (max-width: 900px) {
+      margin-right: 0px;
+    }
   }
 
   &__left-item {

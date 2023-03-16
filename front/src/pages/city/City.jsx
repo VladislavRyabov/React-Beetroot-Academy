@@ -1,6 +1,6 @@
 import Button from "../../component/Button/Button";
 import {Link} from "react-router-dom";
-import './blog.scss'
+import './city.scss'
 
 import {isMobile} from 'react-device-detect';
 
@@ -20,7 +20,7 @@ import {useQuery} from "@apollo/client";
 import {GET_POST} from "../../data/Posts";
 import Test from "../../component/Test/Test";
 
-function Blog() {
+function City() {
     const { loading, error, data } = useQuery(GET_POST);
 
     const Posts = data?.posts.data.map(item => <SwiperSlide><Test key={item.id} item={item}/></SwiperSlide>)
@@ -52,17 +52,19 @@ function Blog() {
                 </div>
             </section>
             <section>
-                <h2>City</h2>
-                <div className="blog__swiper">
-                    <Swiper
-                        pagination={pagination}
-                        modules={[Pagination]}
-                        className="mySwiper">
-                        {Posts}
-                    </Swiper>
+                <div className="container">
+                    <h2>City</h2>
+                    <div className="blog__swiper">
+                        <Swiper
+                            pagination={pagination}
+                            modules={[Pagination]}
+                            className="mySwiper">
+                            {Posts}
+                        </Swiper>
+                    </div>
                 </div>
             </section>
         </>
     )
 }
-export default Blog
+export default City

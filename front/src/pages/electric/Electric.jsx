@@ -1,15 +1,19 @@
 import Button from "../../component/Button/Button";
 import {Link} from "react-router-dom";
 import React from "react";
-import './contact.scss'
+import './electric.scss'
 import '../../style/main.scss'
 import forever from '../../img/Forever-forward-Desktop.webp'
 import frame from '../../img/Frame.webp'
+import mobFrame from '../../img/mobFrame.webp'
 import frame01 from '../../img/Frame01.webp'
+import FrameMob from '../../img/FrameMob.webp'
 import velo from '../../img/veloretti.mp4'
 import section from '../../img/sectionQV.jpg'
+import sectionMob from '../../img/ForeverMobile.webp'
+import sectionMob2 from '../../img/mobElectro.png'
 
-function Contact() {
+function Electric() {
     return (
         <>
             <section className="offer offer-electric">
@@ -26,10 +30,16 @@ function Contact() {
                 </div>
             </section>
             <section className="electric">
-                <img className="electric__img" src={forever} alt="forever"/>
+                <picture>
+                    <source srcSet={sectionMob} media="(max-width: 576px)"/>
+                    <img className="electric__img" src={forever} alt="forever"/>
+                </picture>
                 <div className="electric__wrapper">
                     <div className="electric__wrap-left electric__wrap-left-max">
-                        <img className="electric__img" src={frame} alt="forever"/>
+                        <picture>
+                            <source srcSet={mobFrame} media="(max-width: 576px)"/>
+                            <img className="electric__img" src={frame} alt="forever"/>
+                        </picture>
                     </div>
                     <div className="electric__wrap-right">
                         <div className="electric__wrap-info">
@@ -62,11 +72,14 @@ function Contact() {
                 </div>
             </section>
             <section className="electric-ivy-ace">
-                <img className="electric-ivy-ace__img" src={section} alt="electric-ivy-ace"/>
+                <picture>
+                    <source srcSet={sectionMob2} media="(max-width: 576px)"/>
+                    <img className="electric-ivy-ace__img" src={section} alt="electric-ivy-ace"/>
+                </picture>
             </section>
             <section className="electric">
                 <div className="electric__wrapper">
-                    <div className="electric__wrap-right">
+                    <div className="electric__wrap-right item-1">
                         <div className="electric__wrap-info">
                             <h2 className="electric__title">Test ride our Electric Ivy or Ace</h2>
                             <p className="electric__text">
@@ -76,17 +89,18 @@ function Contact() {
                             </p>
                         </div>
                     </div>
-                    <div className="electric__wrap-left electric__wrap-left-min">
-                        <video muted="muted" autoPlay="autoplay" loop width="100%" className="electric__img">
-                            <source src={velo} type="video/mp4"/>
-                        </video>
-                    </div>
+                    <video muted="muted" autoPlay="autoplay" loop width="100%" className="electric__wrap-left electric__wrap-left-max item item-2">
+                        <source src={velo} type="video/mp4"/>
+                    </video>
                 </div>
             </section>
             <section className="electric">
                 <div className="electric__wrapper">
                     <div className="electric__wrap-left electric__wrap-left-max">
-                        <img className="electric__img" src={frame01} alt="forever"/>
+                        <picture>
+                            <source srcSet={FrameMob} media="(max-width: 576px)"/>
+                            <img className="electric__img" src={frame01} alt="forever"/>
+                        </picture>
                     </div>
                     <div className="electric__wrap-right">
                         <div className="electric__wrap-info">
@@ -103,4 +117,4 @@ function Contact() {
         </>
     )
 }
-export default Contact
+export default Electric

@@ -2,6 +2,88 @@
   background: url(../../img/City.webp) no-repeat center top / cover;
 }
 
+.horizontal {
+  position: relative;
+  margin-bottom: -4px;
+
+  &__title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 95px;
+    line-height: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    @media screen and (max-width: 1200px) {
+      font-size: 75px;
+      line-height: 90px;
+    }
+    @media screen and (max-width: 992px) {
+      font-size: 55px;
+      line-height: 70px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 80%;
+      font-weight: 400;
+    }
+  }
+}
+
+.company-bikes {
+  margin-top: 50px;
+  padding: 0 100px 200px;
+  position: relative;
+  margin-bottom: -4px;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 0;
+    padding: 0 0;
+
+  }
+
+  &__wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 95px;
+    line-height: 130px;
+    color: #F0F0F0;
+    @media screen and (max-width: 1200px) {
+      font-size: 75px;
+      line-height: 90px;
+    }
+    @media screen and (max-width: 992px) {
+      font-size: 55px;
+      line-height: 70px;
+    }
+    @media screen and (max-width: 768px) {
+      font-weight: 400;
+    }
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 70px 0;
+
+    @media screen and (max-width: 400px) {
+      margin: 40px 0;
+    }
+  }
+}
+
 .blog__swiper {
   max-width: 1010px;
 }

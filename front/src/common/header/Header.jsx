@@ -28,6 +28,9 @@ function Header() {
                                     <Link className="header__item-link" to='/city'>City</Link>
                                 </li>
                                 <li className="header__item">
+                                    <Link className="header__item-link" to='/kids'>Kids</Link>
+                                </li>
+                                <li className="header__item">
                                     <Link className="header__item-link" to='/products'>Products</Link>
                                 </li>
                             </ul>

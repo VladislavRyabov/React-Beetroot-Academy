@@ -4,6 +4,7 @@ import Header from './common/header/Header';
 import Footer from './common/footer/Footer';
 import Home from "./pages/home/Home";
 import City from "./pages/city/City";
+import Kids from "./pages/kids/Kids"
 import Electric from "./pages/electric/Electric";
 import Products from "./pages/products/Products";
 
@@ -17,6 +18,7 @@ function App() {
                     <Route path='/' element={<Home/>}/>
                     <Route path='/City' element={<City/>}/>
                     <Route path='/Electric' element={<Electric/>}/>
+                    <Route path='/Kids' element={<Kids/>}/>
                     <Route path='/Products' element={<Products/>}/>
                     <Route path='*' element={<h1>404</h1>}/>
                 </Routes>

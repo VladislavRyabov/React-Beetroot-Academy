@@ -1,0 +1,31 @@
+.offer-kids {
+  background: url(../../img/Kids.webp) no-repeat center top / cover;
+}
+
+.cart-bike-kids {
+  text-decoration:none;
+
+  &__img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #B6B6B6;
+    @media screen and (max-width: 768px) {
+
+    }
+  }
+
+  &__title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18.6667px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+}

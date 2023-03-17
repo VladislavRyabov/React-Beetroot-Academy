@@ -1,0 +1,55 @@
+//  -----  horizontal  -----  //
+
+.horizontal-kids {
+  height: 800px;
+  @media screen and (max-width: 1200px) {
+    height: 800px;
+  }
+  @media screen and (max-width: 992px) {
+    height: 300px;
+  }
+  @media screen and (max-width: 576px) {
+    height: 500px;
+  }
+}
+
+.horizontal-title-color {
+  color: #000 !important;
+}
+
+.horizontal__title-width {
+  @media screen and (min-width: 1200px) {
+    width: 90%;
+  }
+}
+
+.horizontal {
+  position: relative;
+  margin-bottom: -4px;
+
+  &__title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 95px;
+    line-height: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 75px;
+      line-height: 90px;
+    }
+    @media screen and (max-width: 992px) {
+      font-size: 45px;
+      line-height: 60px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 80%;
+      font-weight: 400;
+    }
+  }
+}
